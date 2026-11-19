@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="sv" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TorreOnCall – Webbyrå | Webbplatser som håller</title>
+  <meta name="description" content="TorreOnCall ritar och bygger webbplatser för företag – med samma krav på struktur, hastighet och tillgänglighet som en arkitekt ställer på ett hus.">
+  <meta name="theme-color" content="#0E2F55">
+  <meta property="og:title" content="TorreOnCall – Webbplatser som håller">
+  <meta property="og:description" content="Hemsidor, SEO och webblösningar för företag. Semantisk HTML, WCAG 2.2 AA och Core Web Vitals.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://torreoncall.se/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "TorreOnCall",
+    "url": "https://torreoncall.se",
+    "email": "info@torreoncall.se",
+    "telephone": "+46700968673",
+    "description": "Webbyrå som ritar och bygger webbplatser för företag.",
+    "areaServed": "SE"
+  }
+  </script>
+</head>
+<body>
+  <!-- Återanvändbar logotyp -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="mark" viewBox="0 0 100 120">
+      <rect class="m-h" x="0" y="0"  width="100" height="7"/>
+      <rect class="m-h" x="0" y="12" width="100" height="7"/>
+      <rect class="m-h" x="0" y="24" width="100" height="7"/>
+      <rect class="m-v" x="26" y="36" width="7" height="84"/>
+      <rect class="m-v" x="40" y="36" width="7" height="84"/>
+      <rect class="m-v" x="54" y="36" width="7" height="84"/>
+      <rect class="m-v" x="68" y="36" width="7" height="84"/>
+    </symbol>
+  </svg>
+
+  <a class="skip" href="#main">Hoppa till innehållet</a>
+
+  <!-- Laddningsskärm -->
+  <div class="loader" aria-hidden="true">
+    <svg class="loader-mark" viewBox="0 0 100 120">
+      <rect x="0" y="0"  width="100" height="7"/>
+      <rect x="0" y="12" width="100" height="7"/>
+      <rect x="0" y="24" width="100" height="7"/>
+      <rect x="26" y="36" width="7" height="84"/>
+      <rect x="40" y="36" width="7" height="84"/>
+      <rect x="54" y="36" width="7" height="84"/>
+      <rect x="68" y="36" width="7" height="84"/>
+    </svg>
+  </div>
+
+  <div class="progress" aria-hidden="true"><span></span></div>
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <header class="header">
+    <div class="wrap header-inner">
+      <a href="#top" class="brand" aria-label="TorreOnCall – till startsidan">
+        <svg class="brand-mark"><use href="#mark"/></svg>
+        <span class="brand-word">TorreOnCall</span>
+      </a>
+      <nav class="nav" aria-label="Huvudmeny">
+        <ul>
+          <li><a href="#tjanster">Tjänster</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#planera">Planera</a></li>
+          <li><a href="#om-oss">Om oss</a></li>
+          <li><a href="#faq">Frågor</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" aria-label="Byt till mörkt läge">
+          <svg viewBox="0 0 24 24" class="i-sun"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M1.5 12h3M19.5 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+          <svg viewBox="0 0 24 24" class="i-moon"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
+        </button>
+        <a href="#kontakt" class="btn btn-primary btn-sm magnetic">Boka ett samtal</a>
+        <button class="burger" type="button" aria-label="Öppna meny" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav aria-label="Mobilmeny">
+      <a href="#tjanster">Tjänster</a>
+      <a href="#process">Process</a>
+      <a href="#planera">Planera</a>
+      <a href="#om-oss">Om oss</a>
+      <a href="#faq">Frågor</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <p class="mm-foot"><a href="mailto:info@torreoncall.se">info@torreoncall.se</a><br><a href="tel:+46700968673">+46 70 096 86 73</a></p>
+  </div>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <canvas class="blueprint" aria-hidden="true"></canvas>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Webbyrå · Sverige</p>
+          <h1 class="hero-title" aria-label="Webbplatser som håller.">
+            <span class="line"><span class="word">Webbplatser</span></span>
+            <span class="line"><span class="word">som</span> <span class="word accent">håller.</span></span>
+          </h1>
+          <p class="lead reveal">Vi ritar och bygger webbplatser för företag – med samma krav på struktur, hastighet och tillgänglighet som en arkitekt ställer på ett hus.</p>
+          <p class="typer reveal" aria-live="off">Byggt med <span class="typed" data-words="Semantisk HTML|WCAG 2.2 AA|Core Web Vitals|Mobil först|Strukturerad data"></span><span class="caret" aria-hidden="true"></span></p>
+          <div class="hero-cta reveal">
+            <a href="#kontakt" class="btn btn-primary magnetic">Boka ett samtal <span aria-hidden="true">→</span></a>
+            <a href="#tjanster" class="btn btn-ghost magnetic">Se våra tjänster</a>
+          </div>
+          <p class="hero-note reveal">Den som ritar sidan bygger den. Inga mellanhänder, inga färdiga mallar.</p>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="browser tilt">
+            <div class="browser-bar"><i></i><i></i><i></i><span>torreoncall.se</span></div>
+            <div class="browser-body">
+              <svg class="hero-mark"><use href="#mark"/></svg>
+              <div class="skeleton">
+                <span style="--w:70%"></span><span style="--w:90%"></span><span style="--w:55%"></span>
+              </div>
+              <div class="metrics">
+                <div class="gauge" data-value="100"><svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="15.9"/><circle class="g-fill" cx="18" cy="18" r="15.9"/></svg><b>0</b><small>Prestanda</small></div>
+                <div class="gauge" data-value="100"><svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="15.9"/><circle class="g-fill" cx="18" cy="18" r="15.9"/></svg><b>0</b><small>Tillgänglighet</small></div>
+                <div class="gauge" data-value="100"><svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="15.9"/><circle class="g-fill" cx="18" cy="18" r="15.9"/></svg><b>0</b><small>SEO</small></div>
+              </div>
+            </div>
+            <div class="chip chip-1">Mobil först</div>
+            <div class="chip chip-2">Tillgänglighet AA</div>
+          </div>
+        </div>
+      </div>
+      <a href="#tjanster" class="scroll-hint" aria-label="Scrolla till tjänster"><span></span></a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Hemsidor</span><em>◆</em><span>SEO</span><em>◆</em><span>Webbutveckling</span><em>◆</em><span>Tillgänglighet</span><em>◆</em><span>Prestanda</span><em>◆</em><span>Strukturerad data</span><em>◆</em><span>Integrationer</span><em>◆</em><span>Drift &amp; förvaltning</span><em>◆</em>
+        <span>Hemsidor</span><em>◆</em><span>SEO</span><em>◆</em><span>Webbutveckling</span><em>◆</em><span>Tillgänglighet</span><em>◆</em><span>Prestanda</span><em>◆</em><span>Strukturerad data</span><em>◆</em><span>Integrationer</span><em>◆</em><span>Drift &amp; förvaltning</span><em>◆</em>
+      </div>
+    </div>
+
+    <!-- TJÄNSTER -->
+    <section class="section" id="tjanster">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow reveal">Tjänster</p>
+          <h2 class="h2 reveal">Det vi gör.</h2>
+          <p class="sub reveal">Vi bygger webbplatsen, gör den hittbar och kopplar den till era system.</p>
+        </div>
+        <div class="cards">
+          <article class="card reveal tilt" tabindex="0">
+            <span class="card-num">01</span>
+            <svg class="card-icon" viewBox="0 0 48 48"><rect x="5" y="9" width="38" height="30" rx="3"/><path d="M5 17h38M11 13h.01M15 13h.01M19 13h.01M12 24h14M12 30h22"/></svg>
+            <h3>Hemsidor &amp; webbplatser</h3>
+            <p>En snabb och lättnavigerad webbplats som förklarar vad ni gör och gör det enkelt att ta kontakt.</p>
+            <ul class="card-list"><li>Sidplan &amp; wireframes</li><li>Design i er profil</li><li>Handskriven kod</li></ul>
+          </article>
+          <article class="card reveal tilt" tabindex="0">
+            <span class="card-num">02</span>
+            <svg class="card-icon" viewBox="0 0 48 48"><circle cx="21" cy="21" r="13"/><path d="M31 31l11 11M15 24l4-5 4 3 5-6"/></svg>
+            <h3>SEO &amp; söksynlighet</h3>
+            <p>Teknisk SEO och innehållsstruktur så att fler hittar er på de sökningar som betyder något.</p>
+            <ul class="card-list"><li>Teknisk granskning</li><li>Strukturerad data</li><li>Sökordsstrategi</li></ul>
+          </article>
+          <article class="card reveal tilt" tabindex="0">
+            <span class="card-num">03</span>
+            <svg class="card-icon" viewBox="0 0 48 48"><rect x="4" y="8" width="16" height="12" rx="2"/><rect x="28" y="28" width="16" height="12" rx="2"/><rect x="28" y="8" width="16" height="12" rx="2"/><path d="M20 14h8M36 20v8M12 20v14h16"/></svg>
+            <h3>Webblösningar för företag</h3>
+            <p>Formulär, bokningar och integrationer som knyter webbplatsen till systemen ni redan arbetar i.</p>
+            <ul class="card-list"><li>Bokning &amp; formulär</li><li>API-integrationer</li><li>Drift &amp; förvaltning</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section section-dark" id="process">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow reveal">Process</p>
+          <h2 class="h2 reveal">Som en arkitekt bygger ett hus.</h2>
+          <p class="sub reveal">Först strukturen, sedan materialen, sist detaljerna. Varje steg är klart innan nästa börjar.</p>
+        </div>
+        <div class="process-grid">
+        <div class="timeline">
+          <span class="timeline-line" aria-hidden="true"><span></span></span>
+          <ol class="steps">
+          <li class="step reveal">
+            <span class="step-dot">1</span>
+            <div><h3>Förstudie</h3><p>Vi lär oss verksamheten, målgruppen och vad webbplatsen ska åstadkomma innan något ritas.</p></div>
+          </li>
+          <li class="step reveal">
+            <span class="step-dot">2</span>
+            <div><h3>Struktur</h3><p>Sidplan, innehållshierarki och wireframes. Navigationen ska vara självklar innan den blir vacker.</p></div>
+          </li>
+          <li class="step reveal">
+            <span class="step-dot">3</span>
+            <div><h3>Material</h3><p>Typografi, färg och komponenter i er grafiska profil – byggda som ett system, inte som enstaka sidor.</p></div>
+          </li>
+          <li class="step reveal">
+            <span class="step-dot">4</span>
+            <div><h3>Bygge</h3><p>Semantisk HTML, mätt prestanda och tillgänglighet testad med tangentbord och skärmläsare.</p></div>
+          </li>
+          <li class="step reveal">
+            <span class="step-dot">5</span>
+            <div><h3>Lansering &amp; förvaltning</h3><p>Vi publicerar, följer upp och håller webbplatsen i form – i år och åren efter.</p></div>
+          </li>
+          </ol>
+        </div>
+        <div class="process-visual" aria-hidden="true">
+          <svg class="build-mark" viewBox="0 0 100 120">
+            <rect x="0" y="24" width="100" height="7"/>
+            <rect x="0" y="12" width="100" height="7"/>
+            <rect x="0" y="0"  width="100" height="7"/>
+            <rect x="26" y="36" width="7" height="84"/>
+            <rect x="40" y="36" width="7" height="84"/>
+            <rect x="54" y="36" width="7" height="84"/>
+            <rect x="68" y="36" width="7" height="84"/>
+          </svg>
+          <p class="build-label">Bygger: <b>0</b>%</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KRAV / SIFFROR -->
+    <section class="section" id="krav">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow reveal">Våra krav</p>
+          <h2 class="h2 reveal">Mätbart, inte magkänsla.</h2>
+          <p class="sub reveal">Måtten vi bygger mot i varje projekt.</p>
+        </div>
+        <div class="stats">
+          <div class="stat reveal"><b><span class="count" data-to="2.5" data-decimals="1" data-prefix="&lt; ">0</span> s</b><span>Largest Contentful Paint</span></div>
+          <div class="stat reveal"><b><span class="count" data-to="0.1" data-decimals="1" data-prefix="&lt; ">0</span></b><span>Cumulative Layout Shift</span></div>
+          <div class="stat reveal"><b>AA</b><span>WCAG 2.2</span></div>
+          <div class="stat reveal"><b><span class="count" data-to="0">0</span></b><span>Färdiga mallar</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLANERA / KONFIGURATOR -->
+    <section class="section section-tint" id="planera">
+      <div class="wrap planner">
+        <div class="planner-intro">
+          <p class="eyebrow reveal">Planera</p>
+          <h2 class="h2 reveal">Vad behöver ni?</h2>
+          <p class="sub reveal">Välj det som stämmer. Vi gör om valen till en färdig förfrågan i kontaktformuläret.</p>
+          <div class="planner-summary reveal" aria-live="polite">
+            <p class="ps-label">Er förfrågan</p>
+            <ul class="ps-list"><li class="ps-empty">Inget valt ännu</li></ul>
+            <div class="ps-meter"><span></span></div>
+            <p class="ps-scope">Omfattning: <b>–</b></p>
+          </div>
+        </div>
+        <form class="planner-form reveal" onsubmit="return false">
+          <fieldset>
+            <legend>Projekt</legend>
+            <div class="chips">
+              <label class="chipx"><input type="checkbox" name="p" value="Ny webbplats" data-w="3"><span>Ny webbplats</span></label>
+              <label class="chipx"><input type="checkbox" name="p" value="Omgörning av befintlig sida" data-w="3"><span>Omgörning</span></label>
+              <label class="chipx"><input type="checkbox" name="p" value="SEO-granskning" data-w="1"><span>SEO-granskning</span></label>
+              <label class="chipx"><input type="checkbox" name="p" value="Tillgänglighetsanpassning" data-w="2"><span>Tillgänglighet</span></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Funktioner</legend>
+            <div class="chips">
+              <label class="chipx"><input type="checkbox" name="f" value="Bokning" data-w="2"><span>Bokning</span></label>
+              <label class="chipx"><input type="checkbox" name="f" value="Kontaktformulär" data-w="1"><span>Formulär</span></label>
+              <label class="chipx"><input type="checkbox" name="f" value="Integration mot befintligt system" data-w="3"><span>Integrationer</span></label>
+              <label class="chipx"><input type="checkbox" name="f" value="Flerspråkig" data-w="2"><span>Flera språk</span></label>
+              <label class="chipx"><input type="checkbox" name="f" value="Blogg/nyheter" data-w="1"><span>Blogg</span></label>
+              <label class="chipx"><input type="checkbox" name="f" value="Drift & förvaltning" data-w="1"><span>Förvaltning</span></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Antal sidor: <output class="pages-out">5</output></legend>
+            <input type="range" class="pages" min="1" max="30" value="5" aria-label="Ungefärligt antal sidor">
+          </fieldset>
+          <button type="button" class="btn btn-primary magnetic planner-go">Använd i förfrågan <span aria-hidden="true">→</span></button>
+        </form>
+      </div>
+    </section>
+
+    <!-- OM OSS -->
+    <section class="section" id="om-oss">
+      <div class="wrap about">
+        <div class="about-copy">
+          <p class="eyebrow reveal">Om oss</p>
+          <h2 class="h2 reveal">Ett litet team med lång horisont.</h2>
+          <p class="reveal">TorreOnCall är en webbyrå som arbetar som en arkitekt: först strukturen, sedan materialen, sist detaljerna.</p>
+          <p class="reveal">Vi tar oss tid att förstå verksamheten innan den första sidan ritas. Det gör webbplatsen enklare att förvalta – och lättare att lita på.</p>
+        </div>
+        <div class="principles reveal" role="tablist" aria-label="Våra principer">
+          <button class="principle is-active" role="tab" aria-selected="true">
+            <span class="p-idx">I</span>
+            <span class="p-body"><strong>Struktur före yta</strong><em>Sidplanen ritas innan skärmarna.</em></span>
+          </button>
+          <button class="principle" role="tab" aria-selected="false">
+            <span class="p-idx">II</span>
+            <span class="p-body"><strong>Innehåll före effekter</strong><em>Tydliga texter slår animationer.</em></span>
+          </button>
+          <button class="principle" role="tab" aria-selected="false">
+            <span class="p-idx">III</span>
+            <span class="p-body"><strong>Långsiktighet före genvägar</strong><em>Det vi bygger ska gå att förvalta i år.</em></span>
+          </button>
+          <svg class="principle-mark" aria-hidden="true"><use href="#mark"/></svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-tint" id="faq">
+      <div class="wrap faq-wrap">
+        <div class="section-head">
+          <p class="eyebrow reveal">Frågor</p>
+          <h2 class="h2 reveal">Bra att veta.</h2>
+        </div>
+        <div class="faq">
+          <details class="reveal"><summary>Använder ni färdiga mallar eller WordPress-teman?<i></i></summary><div><p>Nej. Vi ritar strukturen för just er verksamhet och bygger koden själva. Det ger en snabbare sida som är enklare att förvalta.</p></div></details>
+          <details class="reveal"><summary>Vad betyder WCAG 2.2 AA för oss?<i></i></summary><div><p>Att webbplatsen går att använda med tangentbord, skärmläsare och förstoring, har tillräcklig kontrast och tydliga formulär. Det är också grunden för kraven i tillgänglighetslagstiftningen.</p></div></details>
+          <details class="reveal"><summary>Kan ni koppla webbplatsen till våra system?<i></i></summary><div><p>Ja. Formulär, bokningar och integrationer kan kopplas till systemen ni redan arbetar i, till exempel CRM, bokningssystem eller e-post.</p></div></details>
+          <details class="reveal"><summary>Vad händer efter lansering?<i></i></summary><div><p>Vi erbjuder drift och förvaltning: uppdateringar, uppföljning av prestanda och sök, samt löpande förbättringar.</p></div></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="section section-dark" id="kontakt">
+      <div class="wrap contact">
+        <div class="contact-copy">
+          <p class="eyebrow reveal">Kontakt</p>
+          <h2 class="h2 reveal">Berätta vad ni vill bygga.</h2>
+          <p class="sub reveal">Några rader räcker. Vi återkommer med nästa steg och vilka underlag vi behöver.</p>
+          <div class="contact-links reveal">
+            <a href="mailto:info@torreoncall.se" class="c-link"><span>E-post</span>info@torreoncall.se</a>
+            <a href="tel:+46700968673" class="c-link"><span>Telefon</span>+46 70 096 86 73</a>
+            <button type="button" class="copy-mail" data-copy="info@torreoncall.se">Kopiera e-post</button>
+          </div>
+        </div>
+        <form class="form reveal" id="contact-form" novalidate>
+          <div class="field">
+            <input id="f-name" name="namn" type="text" autocomplete="name" placeholder=" " required>
+            <label for="f-name">Namn</label>
+            <small class="err" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <input id="f-mail" name="epost" type="email" autocomplete="email" placeholder=" " required>
+            <label for="f-mail">E-post</label>
+            <small class="err" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <textarea id="f-msg" name="meddelande" rows="5" placeholder=" " required maxlength="1500"></textarea>
+            <label for="f-msg">Meddelande</label>
+            <small class="counter"><span>0</span>/1500</small>
+            <small class="err" aria-live="polite"></small>
+          </div>
+          <label class="consent">
+            <input type="checkbox" id="f-consent" required>
+            <span>Jag godkänner att TorreOnCall behandlar mina uppgifter enligt integritetspolicyn.</span>
+          </label>
+          <small class="err err-consent" aria-live="polite"></small>
+          <button type="submit" class="btn btn-light magnetic btn-submit"><span class="label">Skicka förfrågan</span><span class="spinner" aria-hidden="true"></span></button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <a href="#top" class="brand brand-footer" aria-label="TorreOnCall – till toppen">
+        <svg class="brand-mark"><use href="#mark"/></svg>
+        <span class="brand-word">TorreOnCall</span>
+      </a>
+      <p>Webbplatser som håller.</p>
+      <p class="f-meta">© <span class="year"></span> TorreOnCall · <a href="mailto:info@torreoncall.se">info@torreoncall.se</a></p>
+    </div>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="Till toppen">↑</button>
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
